@@ -3,8 +3,6 @@
 ---
 A simple game of Snake I wrote using the P5.js library.
 You can certainly have a lot of fun from just a couple hundred lines of code.
-[Click Here](https://josephmfaulkner.github.io/SimpleSnake "Have fun") to play.
+[Click Here](https://josephmfaulkner.github.io/Simple-Snake "Have fun") to play.
 Have fun!
 ![Game preview](screenshot.jpg "ScreenShot")
----
-[Joseph Faulkner](http://josephmfaulkner.com "My Personal Page")
