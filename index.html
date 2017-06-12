@@ -1,6 +1,12 @@
 <html>
 <head>
+  <title>SimpleSnake</title>
   <meta charset="UTF-8">
+  <meta property="og:url"           content="https://josephmfaulkner.github.io/Simple-Snake" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Simple Snake" />
+  <meta property="og:description"   content="A simple Snake game written by Joseph Faulkner. Enjoy!" />
+  <meta property="og:image"         content="https://josephmfaulkner.github.io/Simple-Snake/screenshot.jpg" />
   <script language="javascript" type="text/javascript" src="lib/p5.js"></script>
   <!--<script language="javascript" src="lib/p5.sound.js"></script>-->
   <script language="javascript" type="text/javascript" src="js/global.js"></script>
@@ -15,6 +21,7 @@
     body {
       margin: 0;
       display: flex;
+      flex-direction: column-reverse;
       /* This centers our sketch horizontally. */
       justify-content: center;
       /* This centers our sketch vertically. */
@@ -23,6 +30,21 @@
     }
   </style>
 </head>
+
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=1741100819498420";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+  <div class="fb-share-button"
+    data-href="https://josephmfaulkner.github.io/Simple-Snake"
+    data-layout="button"
+    size="large">
+  </div>
 </body>
 </html>
